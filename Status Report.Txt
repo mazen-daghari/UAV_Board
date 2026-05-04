@@ -1,0 +1,20 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Cargo_lift_stm32.PrjPcb]
+   Generated File[Drone.GTO]
+   Generated File[Drone.GTP]
+   Generated File[Drone.GTS]
+   Generated File[Drone.GTL]
+   Generated File[Drone.GBL]
+   Generated File[Drone.GBS]
+   Generated File[Drone.GBP]
+   Generated File[Drone.GBO]
+   Generated File[Drone.GM]
+   Generated File[Drone.EXTREP]
+   Generated File[Drone.REP]
+
+
+Files Generated   : 11
+Documents Printed : 0
+
+Finished Output Generation At 08:07:54 On 04/05/2026
