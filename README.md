@@ -43,6 +43,7 @@ Form Factor	Compact 2-layer PCB optimized for vibration resistance and thermal m
 </pre>
   
 ## Hardware Highlights
+![Hardware](https://github.com/mazen-daghari/UAV_Board/blob/515a14aa36cc032448c958c1279d2af1d621803c/drone_page-0001.jpg)
 ## 1. GNSS / GPS Integration
 NEO-M9N or compatible multi-band GNSS receiver
 UART interface with PPS (Pulse Per Second) for time synchronization
