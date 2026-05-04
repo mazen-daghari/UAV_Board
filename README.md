@@ -38,7 +38,7 @@ Form Factor	Compact 2-layer PCB optimized for vibration resistance and thermal m
 │  • Sensor Headers ─────────► I2C1/SPI1 │
 │  • USB OTG / SWD ──────────► Debug     │
 └─────────────────────────────────────────┘
-<pre>
+</pre>
   
 ## Hardware Highlights
 # 1. GNSS / GPS Integration
@@ -79,7 +79,7 @@ Mounting: 30.5 mm × 30.5 mm M3 holes (compatible with standard drone frames)
 
 ## Firmware
 The firmware is developed in STM32CubeIDE using HAL/LL libraries with a modular architecture:
-
+<pre>
 // Example: Initialize PWM for motor control
 HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);  // Motor 1
 HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_2);  // Motor 2
@@ -94,10 +94,10 @@ Implemented Modules:
 ✅ UART command interface
 🔄 MAVLink protocol integration (in progress)
 🔄 PID attitude control loop (in progress)
-
+</pre>
 ## Getting Started
 # Hardware Requirements
-  
+ <pre>
 This custom PCB (fabricated via JLCPCB/PCBWay)
 GPS module (NEO-M9N or u-blox compatible)
 LoRa module (RFM95W / Ebyte E22)
@@ -109,7 +109,7 @@ STM32CubeIDE
 STM32CubeMX (for peripheral configuration)
 Git
 Flashing Firmware
-
+  </pre>
 git clone https://github.com/ (will be added ASAP)
 cd stm32-uav-agv-controller/Firmware
 
