@@ -43,21 +43,21 @@ Form Factor	Compact 2-layer PCB optimized for vibration resistance and thermal m
 </pre>
   
 ## Hardware Highlights
-# 1. GNSS / GPS Integration
+## 1. GNSS / GPS Integration
 NEO-M9N or compatible multi-band GNSS receiver
 UART interface with PPS (Pulse Per Second) for time synchronization
 Supports GPS, GLONASS, Galileo, and BeiDou for robust global positioning 
-# 2. LoRa Communication Module
+## 2. LoRa Communication Module
 SX1276/RFM95W or STM32WL integrated transceiver
 Frequency: 433/868/915 MHz (region-selectable)
 Protocol: Custom lightweight telemetry frame or MAVLink over LoRa
 Range: 2–10+ km line-of-sight (depending on antenna and environment)
-# 3. Heavy-Duty DC Motor Control (PWM)
+## 3. Heavy-Duty DC Motor Control (PWM)
 4–8 independent PWM channels (16-bit resolution, 50 Hz–2 kHz configurable)
 Direct drive of Brushed DC motor drivers (e.g., BTS7960, VNH5019) or Brushless ESCs
 Current sensing inputs (optional) for stall detection and overcurrent protection
 Isolated gate drivers for high-power MOSFET bridges 
-# 4. Sensor Expansion Ports
+## 4. Sensor Expansion Ports
 2× I²C buses (3.3V, 400 kHz Fast Mode) — IMU, barometer, magnetometer, OLED
 1× SPI bus (up to 21 Mbit/s) — High-speed sensors, SD card logging
 2× UART ports — Lidar, optical flow, companion computer (Raspberry Pi / Jetson)
@@ -111,9 +111,10 @@ STM32CubeIDE
 STM32CubeMX (for peripheral configuration)
 Git
 Flashing Firmware
-  </pre>
-git clone https://github.com/ (will be added ASAP)
+  
+git clone https://github.com/ (Full firmware will be added ASAP)
 cd stm32-uav-agv-controller/Firmware
+</pre>
 
 # Open in STM32CubeIDE → Build → Debug via ST-Link
 
