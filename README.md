@@ -25,6 +25,7 @@ Form Factor	Compact 2-layer PCB optimized for vibration resistance and thermal m
 
 ## System Architecture
 
+<pre>
 ┌─────────────────────────────────────────┐
 │           STM32F4/F7 MCU                │
 │    (Cortex-M4/M7 @ 168-480 MHz)         │
@@ -37,6 +38,8 @@ Form Factor	Compact 2-layer PCB optimized for vibration resistance and thermal m
 │  • Sensor Headers ─────────► I2C1/SPI1 │
 │  • USB OTG / SWD ──────────► Debug     │
 └─────────────────────────────────────────┘
+<pre>
+  
 ## Hardware Highlights
 # 1. GNSS / GPS Integration
 NEO-M9N or compatible multi-band GNSS receiver
@@ -76,7 +79,7 @@ Mounting: 30.5 mm × 30.5 mm M3 holes (compatible with standard drone frames)
 
 ## Firmware
 The firmware is developed in STM32CubeIDE using HAL/LL libraries with a modular architecture:
-
+<pre>
 // Example: Initialize PWM for motor control
 HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);  // Motor 1
 HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_2);  // Motor 2
@@ -91,9 +94,10 @@ Implemented Modules:
 ✅ UART command interface
 🔄 MAVLink protocol integration (in progress)
 🔄 PID attitude control loop (in progress)
-
+<pre>
 ## Getting Started
 # Hardware Requirements
+  <pre>
 This custom PCB (fabricated via JLCPCB/PCBWay)
 GPS module (NEO-M9N or u-blox compatible)
 LoRa module (RFM95W / Ebyte E22)
@@ -105,19 +109,21 @@ STM32CubeIDE
 STM32CubeMX (for peripheral configuration)
 Git
 Flashing Firmware
-
-git clone https://github.com/
+<pre>
+git clone https://github.com/ (will be added ASAP)
 cd stm32-uav-agv-controller/Firmware
 
 # Open in STM32CubeIDE → Build → Debug via ST-Link
 
 # Applications
+<pre>
 Agricultural Drones — GPS waypoint spraying/monitoring with LoRa telemetry backhaul
 Surveillance UAVs — Long-range communication for beyond-line-of-sight operations
 AGVs / Robots — Indoor/outdoor navigation with sensor fusion and heavy payload motors
 Search & Rescue — Autonomous GPS-guided missions with real-time status updates
 Custom Robotics — Expandable platform for research and development 
-
+<pre>
+  
 ## Board Preview
 ![PCB](https://github.com/mazen-daghari/UAV_Board/blob/61bc43917c9f1d2c9e153b42a39d661d16fb4d6a/3D%202.png)
 ![PCB](https://github.com/mazen-daghari/UAV_Board/blob/61bc43917c9f1d2c9e153b42a39d661d16fb4d6a/3D%201.png)
