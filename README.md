@@ -14,14 +14,14 @@ Built around the STM32 microcontroller ecosystem, this project provides a robust
 ## Key Features
 
 Feature	Specification
-MCU	STM32F4/F7 Series (ARM Cortex-M4/M7) — High-performance real-time processing
+MCU	STM32F4 Series (ARM Cortex-M4) — High-performance real-time processing
 GNSS/GPS	Multi-constellation GPS module (UART interface) for precise geolocation and waypoint navigation 
 Long-Range Comms	LoRa Module (SPI/UART) for low-power, long-distance telemetry and command links (km+ range)
 Motor Control	4–8x PWM outputs for heavy-duty DC motors / ESCs; supports standard PWM, OneShot, and DShot protocols 
 Sensor Expansion	Free I²C / SPI / UART headers for IMU, barometer, magnetometer, lidar, ultrasonic, camera triggers, etc.
 Power Management	Dual-rail power input (Battery + BEC); onboard 3.3V/5V LDO and DC-DC regulators
 Debugging	SWD/JTAG interface + USB OTG for firmware upload and serial monitoring
-Form Factor	Compact 4-layer PCB optimized for vibration resistance and thermal management
+Form Factor	Compact 2-layer PCB optimized for vibration resistance and thermal management
 
 ## System Architecture
 
@@ -119,7 +119,8 @@ Search & Rescue — Autonomous GPS-guided missions with real-time status updates
 Custom Robotics — Expandable platform for research and development 
 
 ## Board Preview
-(Add 3D render or photo of your PCB here)
+![PCB](https://github.com/mazen-daghari/UAV_Board/blob/61bc43917c9f1d2c9e153b42a39d661d16fb4d6a/3D%202.png)
+![PCB](https://github.com/mazen-daghari/UAV_Board/blob/61bc43917c9f1d2c9e153b42a39d661d16fb4d6a/3D%201.png)
 
 ## Contributing
 Contributions are welcome! Whether it's hardware improvements, firmware features, or documentation ( feel free to open an issue or submit a pull request ).
@@ -129,5 +130,7 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 
 ## Acknowledgements
 Inspired by open-source flight controller projects like INAV, Betaflight, and ArduPilot 
-STM32 drone development community and STMicroelectronics application notes 
- Disclaimer: This is an advanced electronics project involving high-current DC motors and LiPo batteries. Ensure proper safety precautions (fuses, fireproof bags, insulated wiring) when testing. The authors are not responsible for damage or injury resulting from the use of this hardware.
+STM32 drone development community and STMicroelectronics application notes .
+
+## Disclaimer
+This is an advanced electronics project involving high-current DC motors and LiPo batteries. Ensure proper safety precautions (fuses, fireproof bags, insulated wiring) when testing. The authors are not responsible for damage or injury resulting from the use of this hardware.
