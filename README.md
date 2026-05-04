@@ -13,7 +13,8 @@ Built around the STM32 microcontroller ecosystem, this project provides a robust
 
 ## Key Features
 
-Feature	Specification
+# Feature	Specification
+<pre>
 MCU	STM32F4 Series (ARM Cortex-M4) — High-performance real-time processing
 GNSS/GPS	Multi-constellation GPS module (UART interface) for precise geolocation and waypoint navigation 
 Long-Range Comms	LoRa Module (SPI/UART) for low-power, long-distance telemetry and command links (km+ range)
@@ -22,6 +23,7 @@ Sensor Expansion	Free I²C / SPI / UART headers for IMU, barometer, magnetometer
 Power Management	Dual-rail power input (Battery + BEC); onboard 3.3V/5V LDO and DC-DC regulators
 Debugging	SWD/JTAG interface + USB OTG for firmware upload and serial monitoring
 Form Factor	Compact 2-layer PCB optimized for vibration resistance and thermal management
+</pre>
 
 ## System Architecture
 
@@ -116,13 +118,13 @@ cd stm32-uav-agv-controller/Firmware
 # Open in STM32CubeIDE → Build → Debug via ST-Link
 
 # Applications
-
+<pre>
 Agricultural Drones — GPS waypoint spraying/monitoring with LoRa telemetry backhaul
 Surveillance UAVs — Long-range communication for beyond-line-of-sight operations
 AGVs / Robots — Indoor/outdoor navigation with sensor fusion and heavy payload motors
 Search & Rescue — Autonomous GPS-guided missions with real-time status updates
 Custom Robotics — Expandable platform for research and development 
-
+</pre>
   
 ## Board Preview
 ![PCB](https://github.com/mazen-daghari/UAV_Board/blob/61bc43917c9f1d2c9e153b42a39d661d16fb4d6a/3D%202.png)
