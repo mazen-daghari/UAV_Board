@@ -11,7 +11,7 @@ https://www.st.com/en/development-tools/stm32cubeide.html
 This repository contains the complete hardware design (schematics, PCB layout, Gerbers) and firmware framework for a custom STM32-based control board designed for Unmanned Aerial Vehicles (UAVs / Drones) and Autonomous Ground Vehicles (AGVs). The board integrates high-precision GNSS/GPS positioning, long-range LoRa telemetry and command links, and heavy-duty DC motor control via PWM, while providing dedicated expansion ports for custom sensor integration.
 Built around the STM32 microcontroller ecosystem, this project provides a robust, open-source foundation for robotics applications requiring reliable navigation, long-range communication, and high-power actuation .
 
-## Key Features
+## Key Features V1.0
 
 # Feature	Specification
 <pre>
@@ -136,6 +136,11 @@ Contributions are welcome! Whether it's hardware improvements, firmware features
 ## License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
+## Authors
+
+- [@mazen-daghari](https://www.github.com/mazen-daghari)
+
+  
 ## Acknowledgements
 Inspired by open-source flight controller projects like INAV, Betaflight, and ArduPilot 
 STM32 drone development community and STMicroelectronics application notes .
